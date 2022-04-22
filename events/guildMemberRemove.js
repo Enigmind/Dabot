@@ -1,4 +1,4 @@
-// Need to work on it while Esca in production is sleeping
+// Trigger when a member leaves a server
 module.exports = {
 	name: 'guildMemberRemove',
 	execute(member) {

@@ -1,4 +1,4 @@
-// Need to work on it while Esca in production is sleeping
+// Trigger when a new user joins a server
 module.exports = {
 	name: 'guildMemberAdd',
 	execute(member) {

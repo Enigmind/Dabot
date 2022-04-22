@@ -1,3 +1,4 @@
+// Trigger when someone write a message in a channel
 const OpenAI = require("openai-api");
 require("dotenv").config();
 const openAI_key = process.env.OPEN_AI_KEY
