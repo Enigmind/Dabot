@@ -67,10 +67,10 @@ module.exports = {
       const bd = interaction.options.getBoolean("bras_droit");
       const general_channel = client.channels.cache.get('964925286519042127');
       const arm_role = interaction.guild.roles.cache.find(
-        (r) => r.id === "964925286049284182"
+        (r) => r.id === "964904219532460032"
       );
       const member_role = interaction.guild.roles.cache.find(
-        (r) => r.id === "964925286049284180"
+        (r) => r.id === "964904680079654923"
       );
 
       var role = "membre"
@@ -94,9 +94,9 @@ module.exports = {
     } else if (interaction.options.getSubcommand() === "invité") {
       const user = interaction.options.getMentionable("utilisateur");
       const pseudo = interaction.options.getString("pseudo");
-      const general_channel = client.channels.cache.get('964925286519042127');
+      const general_channel = client.channels.cache.get('964905956876091522');
       const guest_role = interaction.guild.roles.cache.find(
-        (r) => r.id === "967022921769971712"
+        (r) => r.id === "965656853797298237"
       );
 
       user.roles.add(guest_role);
