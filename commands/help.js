@@ -16,7 +16,7 @@ module.exports = {
         //content
         .addFields(
             { name: 'help', value: "Affiche l'aide." },
-            { name: 'register', value: "Permet de t'identifier sur le serveur." },
+            { name: 'donne_role', value: "Donne les rôles d'accès au serveur pour l'utilisateur sélectionné." },
             { name: 'pussy', value: "À utiliser uniquement si tu es en manque de poti chats." },
         )
         //footer
