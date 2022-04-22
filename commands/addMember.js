@@ -65,7 +65,7 @@ module.exports = {
       const pseudo = interaction.options.getString("pseudo");
       const guilde = interaction.options.getRole("guilde");
       const bd = interaction.options.getBoolean("bras_droit");
-      const general_channel = client.channels.cache.get('964925286519042127');
+      const general_channel = client.channels.cache.get('964905956876091522');
       const arm_role = interaction.guild.roles.cache.find(
         (r) => r.id === "964904219532460032"
       );
